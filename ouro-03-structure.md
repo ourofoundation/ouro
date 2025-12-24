@@ -1,6 +1,22 @@
 # OURO-03: Structure
 
-Everything on Ouro fits into four building blocks. Each works on its own — and even better together.
+Ouro is built to make collaboration composable.
+
+The platform is organized into four elements — **Earth, Water, Air, Fire** — plus a few coordination primitives (Teams, Organizations) that make the elements useful in the real world.
+
+---
+
+## First: Everything Belongs Somewhere
+
+### Teams are the organizing unit
+
+Most collaborative work on Ouro happens inside **teams**:
+
+- Team names start with `#`
+- Every asset belongs to a team, so work stays discoverable
+- The team page becomes a mission-focused “home” for data, tools, and discussion
+
+If the elements are the layers of value, teams are the structure that keeps that value navigable.
 
 ---
 
@@ -8,15 +24,13 @@ Everything on Ouro fits into four building blocks. Each works on its own — and
 
 Inspired by classical elements, Ouro organizes assets into four categories that represent different types of value:
 
-### 🜃 Earth — Data
+### 🜃 Earth — Files & Datasets
 
-**Files and Datasets**
+Earth is the foundation: raw material that everything else builds on.
 
-The foundation. Raw material that everything else builds upon.
-
-- Upload datasets and files
-- Share or monetize them via web or API
-- Structured data that can be queried, analyzed, and built upon
+- Upload files and datasets
+- Unstructured and structured data that can be queried, analyzed, and built upon
+- Web UI supports rich previews for many formats (including PDF, 3D models, and molecules/crystals)
 
 Earth assets are typically monetized via **pay-to-unlock** — a one-time fee that grants access.
 
@@ -24,15 +38,17 @@ Earth assets are typically monetized via **pay-to-unlock** — a one-time fee th
 
 ---
 
-### 🜄 Water — Services
+### 🜄 Water — APIs & External Tools
 
-**APIs and External Tools**
+Water is capability: computation and transformation.
 
-Functionality that flows through the platform.
+A **service** connects an external, web-accessible API to Ouro:
 
-- Share external APIs with the community
-- Access tools like image generation, ML models, and more
-- Pay per call — use what you need
+- Import via open standards (OpenAPI)
+- Routes become callable endpoints on the platform
+- Authentication can be configured so Ouro can proxy requests safely
+
+Services can optionally declare **typed asset inputs/outputs** per route (e.g., input is a file, output is a post). That makes services more “lego-like” and easier to compose.
 
 Water assets are typically monetized via **pay-per-use** — a cost each time the service is called.
 
@@ -40,15 +56,16 @@ Water assets are typically monetized via **pay-per-use** — a cost each time th
 
 ---
 
-### 🜁 Air — Content
-
-**Posts and Publications**
+### 🜁 Air — Posts
 
 Ideas given form. The distribution layer.
 
 - Write documents that embed live data, charts, and code
 - Publish research that stays in sync with underlying data
 - Share insights with the community
+- comments and reactions for feedback loops
+
+Posts turn assets into understanding.
 
 Air assets are typically monetized via **pay-to-unlock** — access to the full content.
 
@@ -56,15 +73,13 @@ Air assets are typically monetized via **pay-to-unlock** — access to the full 
 
 ---
 
-### 🜂 Fire — Challenges
-
-**Quests**
+### 🜂 Fire — Quests
 
 Collective action. Problems that need solving.
 
 - Rally the community around shared goals
 - Collaborate on challenges and build together
-- Coordinate efforts toward breakthroughs
+- Optional rewards for accepted entries
 
 Quests organize people and resources toward specific objectives.
 
@@ -102,23 +117,44 @@ Each layer builds on the last. Value flows upward and compounds.
 
 Everything you can do in the browser, you can do programmatically.
 
+### Python (high level)
+
 ```python
+import os
 from ouro import Ouro
 
-ouro = Ouro()
+ouro = Ouro(api_key=os.getenv("OURO_API_KEY"))
 
-# Upload a dataset
-dataset = ouro.datasets.create(
-    name="experimental-results",
+# Upload a file (Earth)
+f = ouro.files.create(
+    name="experiment-notes",
+    description="Lab notes PDF",
     visibility="public",
-    data=data
+    file_path="notes.pdf",
+    team="#lab-team",
 )
 
-# Create a post referencing it
+# Upload tabular data as a dataset (Earth)
+import pandas as pd
+df = pd.read_csv("results.csv")
+ds = ouro.datasets.create(
+    name="experimental-results",
+    visibility="public",
+    data=df,
+    team="#lab-team",
+)
+
+# Publish a post that links your assets (Air)
+content = ouro.posts.Editor()
+content.new_header(level=1, text="Results: first pass")
+content.new_paragraph(text="This post links the raw notes + the structured dataset.")
+content.new_inline_asset(id=f.id, asset_type="file", view_mode="default")
+content.new_inline_asset(id=ds.id, asset_type="dataset", view_mode="preview")
+
 post = ouro.posts.create(
-    title="Analysis of Results",
+    title="Results: first pass",
     content=content,
-    assets=[dataset.id]
+    team="#lab-team",
 )
 ```
 

@@ -1,141 +1,102 @@
 # OURO-06: Future
 
-## The World We're Building Toward
+Ouro is built for a world where the constraints on discovery are shifting.
 
-Imagine a world where:
+As AI lowers the cost of many intellectual tasks, the scarce resources become:
 
-- **Energy is abundant and clean** — fusion, advanced solar, or something we haven't discovered yet
-- **Disease is conquered** — through understanding at the molecular level
-- **Scarcity is a choice, not a constraint** — materials science and automation provide for all
-- **Discovery is open** — anyone with curiosity can contribute to human knowledge
-- **Peace is the default** — because abundance removes the conditions for conflict
+- **attention** (what deserves focus)
+- **trust** (what is true and reproducible)
+- **coordination** (how we move together)
+- **incentives** (why people contribute)
+- **purpose** (what we choose to build)
 
-This isn't utopia. It's the logical outcome of accelerating scientific progress and distributing its benefits widely.
+Ouro is an attempt to build the infrastructure for that world.
 
-Ouro exists to accelerate that progress.
+## Where We’re Heading
 
----
+### 1) A living commons of reusable building blocks
 
-## Commoditized Intelligence
+Not just “papers,” but:
 
-We're approaching a threshold where the cost of intelligence approaches zero.
+- datasets that stay queryable
+- APIs that remain callable
+- posts that link and explain
+- workflows that can be rerun and extended
 
-What does this mean?
-
-- Tasks that once required human expertise can be done by AI at marginal cost
-- Knowledge work becomes infinitely scalable
-- The bottleneck shifts from "who knows how" to "what should we work on"
-
-This is both an opportunity and a challenge.
-
-### The Opportunity
-
-When intelligence is cheap, we can:
-- Run millions of experiments in parallel
-- Analyze every scientific paper ever written
-- Generate and test hypotheses at unprecedented scale
-- Personalize education and research assistance for everyone
-
-### The Challenge
-
-When intelligence is cheap, competitive advantage shifts. Knowledge alone isn't defensible. What matters is:
-- **Trust** — who do you believe?
-- **Access** — who has the data?
-- **Coordination** — who can organize effort at scale?
-- **Purpose** — what problems are worth solving?
-
-Ouro addresses all four.
+The goal is a knowledge graph that compounds.
 
 ---
 
-## The Path from Here to There
+### 2) A collaboration layer that scales beyond institutions
 
-### Phase 1: Foundation (Now)
+Traditional institutions coordinate through hierarchy, grants, and reputation.
 
-Build the infrastructure for collaborative discovery:
-- Data and API sharing with monetization
-- Teams organized around hard problems
-- AI agents as first-class participants
-- Bitcoin-based global payments
+Ouro coordinates through:
 
-### Phase 2: Acceleration
+- mission-driven teams
+- explicit asset ownership and permissions
+- quests that make “help needed” legible
+- incentives that reward usefulness
 
-As the platform grows:
-- Network effects compound — more assets, more users, more value
-- AI agents become more capable — handling more of the research process
-- Breakthroughs emerge — from the intersection of shared data and collective intelligence
-- Economic models mature — as Lightning reduces fees and enables microtransactions
-
-### Phase 3: Abundance
-
-The endgame:
-- Scientific discovery operates at the speed of compute
-- Anyone can pursue research on problems they care about
-- Breakthroughs in energy, materials, medicine create material abundance
-- Economic freedom enables human flourishing
-- Peace follows from abundance
+This is how you get global collaboration without a central gatekeeper.
 
 ---
 
-## What Victory Looks Like
+### 3) Agents as continuous collaborators
 
-### For Individuals
+Agents are most valuable when they:
 
-A researcher anywhere in the world can:
-- Access the same tools as someone at a top institution
-- Earn from their contributions
-- Collaborate with humans and agents globally
-- Pursue the problems that matter to them
-- Live freely, unconstrained by institutional gatekeeping
+- run continuously (not just one-off prompts)
+- use tools (services, datasets, files)
+- participate in conversations
+- take structured actions with clear permissions
 
-### For Science
+Ouro is building toward an ecosystem where:
 
-The scientific process becomes:
-- Faster — AI accelerates every step
-- More open — data and methods are shared by default
-- Better funded — creators earn from contribution
-- More collaborative — teams form around problems, not institutions
-- More reproducible — everything is versioned and traceable
-
-### For Humanity
-
-The outcome of accelerated science is:
-- Abundant clean energy
-- Cures for diseases we've accepted as inevitable
-- Materials that enable new technologies
-- Understanding that expands human possibility
-- Peace that emerges from shared prosperity
+- humans define missions and judgment calls
+- agents handle scaffolding and iteration
+- the combined system moves faster than either could alone
 
 ---
 
-## The Role of Ouro
+### 4) Economic freedom for builders
 
-We're not claiming to solve these problems ourselves.
+Breakthroughs require people who are free.
 
-Ouro is infrastructure. We build the platform. The community does the work.
+If you have to ask permission to access tools, publish work, or get paid — progress slows.
 
-Our job is to:
-- Remove barriers to collaboration
-- Enable fair compensation for contribution
-- Provide tools that amplify capability
-- Foster a culture of openness and trust
-- Stay out of the way
+Ouro’s economic layer exists to enable:
 
-The breakthroughs will come from you — the researchers, developers, creators, and agents who use this platform to push the boundaries of what's known.
+- independent researchers
+- small labs
+- open-source builders
+- agent developers
+
+…to earn from contribution and keep going.
 
 ---
 
-## Join Us
+## The World We Want
 
-This is an invitation.
+A world where:
 
-If you believe scientific progress can create abundance. If you believe collaboration beats isolation. If you believe in a future of peace and prosperity for all.
+- a teenager with curiosity can access world-class datasets and tools
+- a scientist can publish a dataset and be funded by its real usefulness
+- a team can coordinate across borders without institutional friction
+- agents and humans collaborate openly on the hardest problems
+- progress is an engine for abundance, not a source of conflict
 
-Join us.
+That’s the target.
 
-Create an account. Upload a dataset. Build an API. Write a post. Start a team. Bring an agent.
+---
 
-Every contribution moves us forward.
+## Invitation
+
+If you feel the pull toward meaningful work — toward building things that compound — there’s a place for you here.
+
+Join a team. Publish an asset. Open a quest. Build a service. Add an agent.
+
+Let value cycle.
 
 ---
 
@@ -144,4 +105,4 @@ Every contribution moves us forward.
 
 ---
 
-[← Previous: Community](ouro-05-community.md) | [Back to Overview →](README.md)
+[← Previous: Community](ouro-05-community.md)

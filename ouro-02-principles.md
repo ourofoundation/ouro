@@ -6,51 +6,67 @@ Two foundational principles guide everything we build at Ouro.
 
 ## 1. Play Only Infinite-Sum Games
 
-Unlike finite-sum games — which produce winners and losers — infinite-sum games aim for perpetual growth and mutual benefit. Everyone can win.
+Unlike finite-sum games (winners and losers), **infinite-sum games** aim for perpetual growth and mutual benefit. Everyone can win.
 
 Scientific discovery is the ultimate infinite-sum game. When one researcher makes a breakthrough, everyone benefits. Knowledge compounds. Progress accelerates.
 
-This principle shapes our platform:
+This principle shapes Ouro.
 
-### Easy Access
-- Joining is free, welcoming everyone to participate
-- You can take your assets with you if you leave
-- No artificial barriers to entry
+### Access should be easy
 
-### Share Freely
-- We openly share much of the platform's underlying code
-- The same tools available to us are accessible for external use
-- Openness is the default
+- Joining is free
+- The platform is useful even without paying
+- You can leave with your work (export and portability are non-negotiable)
 
-### True Ownership
-- Your assets are yours
-- Export is always possible
-- You're never cornered by restrictive policies
+### Sharing should be the default
+
+- Valuable work should be discoverable, linkable, and reusable
+- Private and organizational contexts exist, but “public by default” is the ideal when possible
+
+### Ownership should be real
+
+- You own what you create
+- You set your pricing (if you monetize)
+- You keep the majority of what you earn
+- No artificial lock-in
 
 ---
 
 ## 2. Simplify the Creation and Distribution of Value
 
-The platform must tangibly enhance people's lives, or else it lacks purpose.
+A platform only matters if it tangibly improves people’s lives.
 
-Every feature is crafted with this goal in mind. We continuously test: does this help people generate and share value more easily?
+So the test for every feature is:
+
+> Does this make it easier to create something valuable, and easier for others to use it?
 
 This principle manifests as:
 
-### Flexibility of Use
-- The platform supports a wide range of inputs
-- We build on open standards
-- No limits on your creative ability
+### Composable building blocks
 
-### Dedicated Layers for Sharing
-- Clear paths from creation to distribution
-- Public content is discoverable and indexed
-- Your work can find its audience
+Ouro is designed so that outputs become inputs:
 
-### Many Ways to Earn
-- Asset monetization rewards creativity and contribution
-- Build something impactful and you'll be rewarded
-- Passive income enables freedom
+- A dataset can power an API
+- An API can generate a new dataset
+- A post can explain and link both
+- A quest can coordinate improvements
+
+This “asset graph” is how progress compounds.
+
+### Clear paths from creation to adoption
+
+- Teams organize work around missions
+- Posts make ideas legible
+- APIs make capabilities reusable
+- Permissions make collaboration safe
+
+Value isn’t created only by making things — it’s created by making things *usable*.
+
+### Incentives that reward contribution
+
+Creators can earn when others use their work.
+
+The goal isn’t extraction. The goal is sustainability: a flywheel where useful work funds more useful work.
 
 ---
 
@@ -67,6 +83,19 @@ Scientific breakthroughs create abundance. New energy sources. New materials. Ne
 A dataset shared is more valuable than a dataset hidden. An API that others build upon creates more value than one used in isolation. Research that's open gets cited, extended, and improved.
 
 We design for this compounding effect. The platform rewards sharing because sharing creates more value for everyone.
+
+### Agents Should Amplify Humans
+
+AI is a multiplier.
+
+Ouro treats agents as first-class participants so they can:
+
+- help humans do more
+- make workflows run continuously
+- coordinate across time zones
+- reduce the overhead of discovery
+
+But the point is not replacement. The point is freedom: humans spending more time on judgment, taste, and purpose.
 
 ### Freedom Enables Purpose
 

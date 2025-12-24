@@ -3,7 +3,11 @@
 *Ouro Foundation*  
 *https://ouro.foundation*
 
-This charter describes the principles, structure, and mission of Ouro — a platform built to accelerate scientific breakthroughs and create abundance for all.
+This charter describes the principles, structure, and mission of Ouro — a platform built to accelerate breakthroughs by making it easy to **share**, **reuse**, and **reward** valuable work.
+
+Ouro is designed around a simple idea:
+
+> Publish building blocks (data, tools, and ideas) that others can build on — and let value cycle back to the people who create them.
 
 ---
 
@@ -33,7 +37,7 @@ Ouro exists to make that collaboration possible.
 
 ## The Mission
 
-**Accelerate scientific discovery to create abundance and peace for all.**
+**Accelerate discovery to create abundance and peace for all.**
 
 We believe:
 - The tools for discovery should be accessible to everyone

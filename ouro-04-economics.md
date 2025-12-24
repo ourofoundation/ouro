@@ -1,18 +1,23 @@
 # OURO-04: Economics
 
-Ouro has built an economic system designed to cultivate a community of fairness, freedom, and progress.
+Ouro’s economic system is designed to do two things at once:
 
-We believe that users who bring value to the platform should have the opportunity to earn from their contributions — but also that no one should be limited from finding value on the platform.
+1. **Keep entry free and accessible**
+2. **Reward people who create reusable value**
+
+The goal is not “monetize everything.” The goal is a sustainable flywheel where useful work funds more useful work.
 
 ---
 
-## Core Economic Principles
+## Platform Economic Principles
 
 ### Free Entry
 
 Anyone can create an account and use the platform for free. There are no barriers to participation.
 
-This is essential. Scientific progress shouldn't be gated by ability to pay. A researcher in Lagos and a researcher in London should have equal access to tools for discovery.
+This matters because discovery shouldn’t be gated by ability to pay. A researcher in Lagos and a researcher in London should be able to participate on equal footing.
+
+Free entry also creates spam pressure, so the community norms (and moderation tooling) matter.
 
 ### Creator Ownership
 
@@ -24,38 +29,43 @@ When you monetize an asset, you set the price. When someone pays, you receive th
 
 To fund development and maintenance, Ouro charges a platform fee on monetized transactions. This fee is currently **30%** of transaction value.
 
-We're actively working toward enabling direct Lightning payments between users, which will dramatically lower fees and may eventually remove the need for any platform fee.
-
 ---
 
 ## Powered by Bitcoin
 
-Ouro is built on Bitcoin — the most secure and decentralized monetary network — to settle value transferred on the platform.
+Ouro uses Bitcoin as the settlement layer for value transferred on the platform.
 
 ### Why Bitcoin?
 
-**Global Access**  
-Bitcoin works everywhere. A creator in any country can receive payment without needing a bank account, credit history, or permission from financial institutions.
+Bitcoin provides:
 
-**Censorship Resistance**  
-No government or corporation can freeze your funds or prevent you from transacting. Your earnings are yours.
+- **Global access**: earn and pay without needing a bank account
+- **Censorship resistance**: your funds can’t be arbitrarily frozen by a platform
+- **Transparent value transfer**
+- **Lower transaction costs**
 
-**Transparency**  
-Movement of value is auditable. The rules are clear and enforced by mathematics, not institutions.
+### “Credits,” but real
 
-**Lower Fees**  
-Compared to traditional payment rails, Bitcoin (especially via Lightning) enables dramatically lower transaction costs.
+A useful mental model:
 
-### The Path Forward
+Bitcoin on Ouro functions like buying credits on an AI platform — except these credits work anywhere that accepts bitcoin.
 
-We're working toward:
-- Direct Lightning payments between users
-- Reduced or eliminated platform fees as efficiency improves
-- Instant, global settlement for all transactions
+They don’t expire, and they remain yours. You can withdraw to your own wallet or spend them elsewhere.
+
+### Wallets
+
+When you join Ouro, a wallet is created for you.
+
+You can fund it by sending bitcoin to your address. From there you can:
+
+- pay for monetized assets
+- receive earnings
+- (optionally) withdraw back to your own wallet
 
 ---
 
-## Monetization Strategies
+
+## Monetization Models
 
 Ouro offers two primary pricing models:
 
@@ -74,8 +84,23 @@ Best for: Datasets, files, posts — anything accessed once and kept.
 | Element | Typical Asset | Monetization |
 |---------|---------------|--------------|
 | Earth | Dataset, file | Pay-to-unlock |
-| Water | API, service | Pay-per-use |
-| Air | Post, paper | Pay-to-unlock |
+| Water | Service route | Pay-per-use |
+| Air | Post | Pay-to-unlock |
+
+---
+
+## Quests and Rewards
+
+Quests can include **optional rewards** for accepted entries.
+
+This is a coordination primitive:
+
+- you publish a request
+- contributors submit a specific asset type
+- you accept the best entries
+- rewards (if configured) are distributed
+
+Used well, quests turn “vague requests” into clear work with clear recognition.
 
 ---
 

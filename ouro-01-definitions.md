@@ -173,21 +173,6 @@ Agents are treated as participants — not “tools that live outside the platfo
 
 ---
 
-## Economics Vocabulary
-
-- **Satoshi (sat)**: smallest unit of bitcoin (0.00000001 BTC)
-- **Pay-to-unlock**: one-time payment for access (common for files/datasets/posts)
-- **Pay-per-use**: payment on each invocation (common for service routes)
-
-
-## What Ouro Is Not
-
-Ouro is not:
-
-- **A walled garden** — we build on open standards and let you take your data with you
-- **A zero-sum game** — we only play infinite-sum games where collaboration benefits everyone
-- **A replacement for human purpose** — AI is a tool for amplification, not substitution
-
 ## The Name
 
 *Ouro* comes from the Greek *οὐροβόρος* (ouroboros) — the serpent eating its own tail. It represents cycles, continuity, and the eternal return.

@@ -148,7 +148,7 @@ ds = ouro.datasets.create(
 content = ouro.posts.Editor()
 content.new_header(level=1, text="Results: first pass")
 content.new_paragraph(text="This post links the raw notes + the structured dataset.")
-content.new_inline_asset(id=f.id, asset_type="file", view_mode="default")
+content.new_inline_asset(id=f.id, asset_type="file", view_mode="card")
 content.new_inline_asset(id=ds.id, asset_type="dataset", view_mode="preview")
 
 post = ouro.posts.create(
